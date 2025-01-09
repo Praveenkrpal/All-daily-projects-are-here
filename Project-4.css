@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial,sans-serif;
+}
+
+.container{
+  margin: 80px auto;
+  height: 600px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'sans-serif,system-ui, Segoe UI'; 
+  font-size: 45px;
+}
+
+p{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+input{
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid dimgray;
+  font-size: 16px;
+  position: relative;
+}
+
+.show{
+  position: absolute;
+  right: 15px;
+  top: 42%;
+  font-size: 14px;
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+}
+
+.login-btn{
+  margin: 40px 60px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+
+#not-a-member{
+  font-weight: 100;
+  color: dimgrey;
+}
+
+#forget-password{
+  margin-left: 122px;
+}
+
+.privacy-policy{
+  padding: 2px;
+  font-weight: 100;
+  color: rgb(116, 116, 116);
+}
